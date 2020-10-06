@@ -1,0 +1,69 @@
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+code, kbd, pre, samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 87.5%;
+  color: #e83e8c;
+  word-break: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+em {
+  font-style: italic;
+}
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+button, input {
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
